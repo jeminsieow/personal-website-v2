@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import IntroductionSection from "./components/IntroductionSection";
+import AboutSection from "./components/AboutSection";
+import SkillsSection from "./components/SkillsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ConnectSection from "./components/ConnectSection";
+import FooterSection from "./components/FooterSection";
+import Loading from "./components/Loading";
 
-function App() {
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 0);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {isLoading === true ? (
+        <>
+          <Loading />
+          <IntroductionSection />
+        </>
+      ) : (
+        <>
+          <Sidebar isOpen={isOpen} toggle={toggle} />
+          <Navbar toggle={toggle} />
+          <IntroductionSection />
+          <AboutSection />
+          <SkillsSection />
+          <ExperienceSection />
+          <ProjectsSection />
+          <ConnectSection />
+          <FooterSection />
+        </>
+      )}
+    </>
   );
-}
+};
+
+window.onunload = function () {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+  });
+};
 
 export default App;
