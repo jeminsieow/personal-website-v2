@@ -18,8 +18,10 @@ export const IntroductionContainer = styled.div`
   }  
 
   @media screen and (max-width: 768px) {
-    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680417411/personal_website/jemin_portrait_1.jpg");
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680417411/personal_website/jemin_portrait_1.jpg");
     background-position: center;
+    height: 100vh;
+    margin-left: -8px;
   }
 `;
 
@@ -30,9 +32,9 @@ export const IntroductionContent = styled.div`
   position: absolute;
 
   @media screen and (max-width: 768px) {
-    width: 450px;
+    width: 80vw;
     left: 10%;
-    bottom: 5%;
+    bottom: 20%;
   }
 `;
 
