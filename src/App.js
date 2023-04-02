@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
@@ -12,39 +12,24 @@ import FooterSection from "./components/FooterSection";
 import Loading from "./components/Loading";
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 0);
-  }, []);
-
   return (
     <>
-      {isLoading === true ? (
-        <>
-          <Loading />
-          <IntroductionSection />
-        </>
-      ) : (
-        <>
-          <Sidebar isOpen={isOpen} toggle={toggle} />
-          <Navbar toggle={toggle} />
-          <IntroductionSection />
-          <AboutSection />
-          <SkillsSection />
-          <ExperienceSection />
-          <ProjectsSection />
-          <ConnectSection />
-          <FooterSection />
-        </>
-      )}
+      <Loading/>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <IntroductionSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <ProjectsSection />
+      <ConnectSection />
+      <FooterSection />
     </>
   );
 };

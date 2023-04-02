@@ -10,5 +10,8 @@ const observer = new IntersectionObserver((entries) => {
     });
   });
   
-  const hiddenElements = document.querySelectorAll('.fade-hidden');
-  hiddenElements.forEach((el) => observer.observe(el));
+const hiddenElements = document.querySelectorAll('.fade-hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
+const hiddenHero = document.querySelectorAll('.fade-hero');
+hiddenHero.forEach((el) => observer.observe(el));

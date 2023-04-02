@@ -2,6 +2,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.fade-hero {
+  opacity: 0;
+  transition: all 1s;
+  transition-delay: 2200ms;
+}
+
 .fade-hidden {
   opacity: 0;
   transform: translateY(50%);
@@ -13,40 +19,40 @@
   transform: translateX(0);
 }
 
-.fade-navbar:nth-child(1) {
-  transition-delay: 100ms;
-}
-
-.fade-navbar:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.fade-navbar:nth-child(3) {
-  transition-delay: 300ms;
-}
-
-.fade-navbar:nth-child(4) {
-  transition-delay: 400ms;
-}
-
-.fade-navbar:nth-child(5) {
-  transition-delay: 500ms;
-}
-
-.fade-navbar:nth-child(6) {
-  transition-delay: 500ms;
-}
-
 .fade-intro:nth-child(1) {
-  transition-delay: 100ms;
+  transition-delay: 2600ms;
 }
 
 .fade-intro:nth-child(2) {
-  transition-delay: 200ms;
+  transition-delay: 2700ms;
 }
 
 .fade-intro:nth-child(3) {
-  transition-delay: 300ms;
+  transition-delay: 2800ms;
+}
+
+.fade-navbar:nth-child(1) {
+  transition-delay: 2600ms;
+}
+
+.fade-navbar:nth-child(2) {
+  transition-delay: 2700ms;
+}
+
+.fade-navbar:nth-child(3) {
+  transition-delay: 2800ms;
+}
+
+.fade-navbar:nth-child(4) {
+  transition-delay: 2900ms;
+}
+
+.fade-navbar:nth-child(5) {
+  transition-delay: 3000ms;
+}
+
+.fade-navbar:nth-child(6) {
+  transition-delay: 3100ms;
 }
 
 .fade-about:nth-child(1) {

@@ -9,9 +9,9 @@ import {
 
 const IntroductionSection = () => {
   return (
-    <IntroductionContainer>
+    <IntroductionContainer className="fade-hero">
       <IntroductionContent>
-        <IntroductionH1 className="fade-intro fade-hidden">Hello!</IntroductionH1>
+        <IntroductionH1 className="fade-hidden fade-intro">Hello!</IntroductionH1>
         <IntroductionH1 className="fade-intro fade-hidden">
           I'm <strong>Sieow Je Min</strong>, a full-stack engineer with a
           passion for great design and user experience

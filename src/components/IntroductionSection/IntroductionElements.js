@@ -12,7 +12,7 @@ export const IntroductionContainer = styled.div`
   background-size: cover;
   position: relative;
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/jemin_landscape_1_a.jpg");
     background-position: center;
   }  
@@ -37,7 +37,6 @@ export const IntroductionContent = styled.div`
 `;
 
 export const IntroductionH1 = styled.h1`
-  opacity: 1;
   color: #000;
   font-size: 35px;
   font-weight: 400;
