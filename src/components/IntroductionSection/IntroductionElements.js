@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IntroductionContainer = styled.div`
-  background-image: linear-gradient(to right, rgba(225, 225, 225, 0.4), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/jemin_landscape_1_a.jpg");
+  background-image: linear-gradient(to right, rgba(225, 225, 225, 0.4), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/personal_website/jemin_landscape_1.jpg");
   margin-left: -25px;
   margin-top: -10px;
   height: 100vh;
@@ -13,12 +13,12 @@ export const IntroductionContainer = styled.div`
   position: relative;
 
   @media screen and (max-width: 1000px) {
-    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/jemin_landscape_1_a.jpg");
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/personal_website/jemin_landscape_1.jpg");
     background-position: center;
   }  
 
   @media screen and (max-width: 768px) {
-    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680417411/jemin_portrait_1.jpg");
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680417411/personal_website/jemin_portrait_1.jpg");
     background-position: center;
   }
 `;
