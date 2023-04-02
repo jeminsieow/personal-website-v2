@@ -1,42 +1,49 @@
 import styled from "styled-components";
 
 export const IntroductionContainer = styled.div`
-  background-image: url("https://res.cloudinary.com/jeminsieow/image/upload/f_auto,q_auto/v1612777649/Introduction.jpg");
-  margin: -6px;
-  background-position: center;
+  background-image: linear-gradient(to right, rgba(225, 225, 225, 0.4), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/jemin_landscape_1_a.jpg");
+  margin-left: -25px;
+  margin-top: -10px;
+  height: 100vh;
+  width: 100vw;
+  
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  position: relative;
+
+  @media screen and (max-width: 900px) {
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680379422/jemin_landscape_1_a.jpg");
+    background-position: center;
+  }  
 
   @media screen and (max-width: 768px) {
-    background-position: 70%;
-    height: 800px;
+    background-image: linear-gradient(to top, rgba(225, 225, 225, 0.7), rgba(0, 0, 0, 0) 70%), url("https://res.cloudinary.com/jeminsieow/image/upload/q_auto/v1680417411/jemin_portrait_1.jpg");
+    background-position: center;
   }
 `;
 
 export const IntroductionContent = styled.div`
-  width: 700px;
-  padding-top: 170px;
-  padding-left: 10%;
-  padding-bottom: 350px;
-  background-color: rgba(225, 225, 225, 0.75);
+  width: 550px;
+  left: 5%;
+  bottom: 10%;
+  position: absolute;
 
   @media screen and (max-width: 768px) {
-    width: 90%;
-    height: 280px;
-    background-color: rgba(225, 225, 225, 0.65);
+    width: 450px;
+    left: 10%;
+    bottom: 5%;
   }
 `;
 
 export const IntroductionH1 = styled.h1`
   opacity: 1;
   color: #000;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 
   @media screen and (max-width: 768px) {
-    padding-top: 40px;
     font-size: 30px;
   }
 
@@ -49,7 +56,6 @@ export const IntroductionP = styled.p`
   color: #000;
   font-size: 20px;
   font-weight: 500;
-  padding-top: 40px;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
