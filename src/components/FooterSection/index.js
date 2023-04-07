@@ -3,7 +3,7 @@ import { FooterP } from './FooterElements'
 
 const FooterSection = () => {
   return (
-    <FooterP>Designed and built by Sieow Je Min <br/><br/> Copyright © 2021</FooterP>
+    <FooterP>Designed and built by Sieow Je Min <br/><br/> Copyright © 2023</FooterP>
   )
 }
 

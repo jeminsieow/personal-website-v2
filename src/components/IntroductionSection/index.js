@@ -9,7 +9,7 @@ import {
 
 const IntroductionSection = () => {
   return (
-    <IntroductionContainer className="fade-hero">
+    <IntroductionContainer id="intro-container" className="fade-hero">
       <IntroductionContent>
         <IntroductionH1 className="fade-hidden fade-intro">Hello!</IntroductionH1>
         <IntroductionH1 className="fade-intro fade-hidden">

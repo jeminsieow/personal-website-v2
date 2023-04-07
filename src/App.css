@@ -5,7 +5,7 @@
 .fade-hero {
   opacity: 0;
   transition: all 1s;
-  transition-delay: 2200ms;
+  transition-delay: 3800ms;
 }
 
 .fade-hidden {
@@ -20,39 +20,39 @@
 }
 
 .fade-intro:nth-child(1) {
-  transition-delay: 2600ms;
+  transition-delay: 4600ms;
 }
 
 .fade-intro:nth-child(2) {
-  transition-delay: 2700ms;
+  transition-delay: 4700ms;
 }
 
 .fade-intro:nth-child(3) {
-  transition-delay: 2800ms;
+  transition-delay: 4800ms;
 }
 
 .fade-navbar:nth-child(1) {
-  transition-delay: 2600ms;
+  transition-delay: 4300ms;
 }
 
 .fade-navbar:nth-child(2) {
-  transition-delay: 2700ms;
+  transition-delay: 4400ms;
 }
 
 .fade-navbar:nth-child(3) {
-  transition-delay: 2800ms;
+  transition-delay: 4500ms;
 }
 
 .fade-navbar:nth-child(4) {
-  transition-delay: 2900ms;
+  transition-delay: 4600ms;
 }
 
 .fade-navbar:nth-child(5) {
-  transition-delay: 3000ms;
+  transition-delay: 4700ms;
 }
 
 .fade-navbar:nth-child(6) {
-  transition-delay: 3100ms;
+  transition-delay: 4800ms;
 }
 
 .fade-about:nth-child(1) {

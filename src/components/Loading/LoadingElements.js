@@ -10,4 +10,14 @@ export const LoadingContainer = styled.div`
   z-index:1000;
   justify-content: center;
   align-items: center;
+  display: flex;
+`
+
+export const SvgContainer = styled.div`
+  height: 30%;
+  width: 30%;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
 `
