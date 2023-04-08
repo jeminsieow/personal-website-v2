@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   IntroductionContainer,
   IntroductionContent,
@@ -8,8 +8,18 @@ import {
 } from "./IntroductionElements";
 
 const IntroductionSection = () => {
+  let [isIntro, setState] = useState(true)
+  
+  const clicking =()=>{
+    setState(!isIntro)
+  }
+
+  useEffect(() => {
+    if (isIntro) setTimeout(() => setState(false), 4800)
+  }, [isIntro])
+
   return (
-    <IntroductionContainer id="intro-container" className="fade-hero">
+    <IntroductionContainer id="intro-container" onClick={clicking} className={isIntro ? "fade-hero" : "fade-hero-after"}>
       <IntroductionContent>
         <IntroductionH1 className="fade-hidden fade-intro">Hello!</IntroductionH1>
         <IntroductionH1 className="fade-intro fade-hidden">

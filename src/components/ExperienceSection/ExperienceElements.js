@@ -31,6 +31,7 @@ export const SectionTitle = styled.h1`
   @media screen and (max-width: 768px) {
     font-size: 16px;
     padding-bottom: 20px;
+    height: 50px;
   }
 
   @media screen and (max-width: 480px) {

@@ -8,6 +8,11 @@
   transition-delay: 3800ms;
 }
 
+.fade-hero-after {
+  transition: all 1s;
+  transition-delay: 100ms;
+}
+
 .fade-hidden {
   opacity: 0;
   transform: translateY(50%);
@@ -131,94 +136,6 @@
   transition-delay: 300ms;
 }
 
-.fade-projects:nth-child(6) {
-  transition-delay: 400ms;
-}
-
-.fade-projects:nth-child(7) {
-  transition-delay: 0ms;
-}
-
-.fade-projects:nth-child(8) {
-  transition-delay: 100ms;
-}
-
-.fade-projects:nth-child(9) {
-  transition-delay: 200ms;
-}
-
-.fade-projects:nth-child(10) {
-  transition-delay: 300ms;
-}
-
-.fade-projects:nth-child(11) {
-  transition-delay: 400ms;
-}
-
-.fade-projects:nth-child(12) {
-  transition-delay: 0ms;
-}
-
-.fade-projects:nth-child(13) {
-  transition-delay: 100ms;
-}
-
-.fade-projects:nth-child(14) {
-  transition-delay: 200ms;
-}
-
-.fade-projects:nth-child(15) {
-  transition-delay: 300ms;
-}
-
-.fade-projects:nth-child(16) {
-  transition-delay: 0ms;
-}
-
-.fade-projects:nth-child(17) {
-  transition-delay: 100ms;
-}
-
-.fade-projects:nth-child(18) {
-  transition-delay: 200ms;
-}
-
-.fade-projects:nth-child(19) {
-  transition-delay: 300ms;
-}
-
-.fade-projects:nth-child(20) {
-  transition-delay: 0ms;
-}
-
-.fade-projects:nth-child(21) {
-  transition-delay: 100ms;
-}
-
-.fade-projects:nth-child(22) {
-  transition-delay: 200ms;
-}
-
-.fade-projects:nth-child(23) {
-  transition-delay: 300ms;
-}
-
-.fade-projects:nth-child(24) {
-  transition-delay: 0ms;
-}
-
-.fade-projects:nth-child(25) {
-  transition-delay: 100ms;
-}
-
-.fade-projects:nth-child(26) {
-  transition-delay: 200ms;
-}
-
-.fade-projects:nth-child(27) {
-  transition-delay: 300ms;
-}
-
 .fade-connect:nth-child(1) {
   transition-delay: 100ms;
 }
@@ -233,4 +150,34 @@
 
 .fade-connect:nth-child(4) {
   transition-delay: 500ms;
+}
+
+@media screen and (max-width: 768px) {
+  .fade-skills:nth-child(1) {
+    transition-delay: 100ms;
+  }
+
+  .fade-skills:nth-child(2) {
+    transition-delay: 100ms;
+  }
+  
+  .fade-skills:nth-child(3) {
+    transition-delay: 100ms;
+  }
+  
+  .fade-skills:nth-child(4) {
+    transition-delay: 100ms;
+  }
+  
+  .fade-skills:nth-child(5) {
+    transition-delay: 100ms;
+  }
+  
+  .fade-skills:nth-child(6) {
+    transition-delay: 100ms;
+  }
+  
+  .fade-skills:nth-child(7) {
+    transition-delay: 100ms;
+  }
 }
