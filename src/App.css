@@ -9,8 +9,7 @@
 }
 
 .fade-hero-after {
-  transition: all 1s;
-  transition-delay: 100ms;
+  transition-delay: 0ms;
 }
 
 .fade-hidden {
