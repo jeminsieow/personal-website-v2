@@ -1,5 +1,9 @@
 import React from "react";
 import {
+  useState,
+  useEffect
+} from "react"
+import {
   IntroductionContainer,
   IntroductionContent,
   IntroductionH1,
