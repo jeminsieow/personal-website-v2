@@ -105,19 +105,3 @@ export const SkillsP = styled.p`
     font-size: 13px;
   }
 `
-
-export const SkillsGreyP = styled.p`
-  color: grey;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 25px;
-  margin: 0px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 14px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 13px;
-  }
-`

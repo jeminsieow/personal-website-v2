@@ -6,8 +6,7 @@ import {
   SkillsList,
   SkillsItem,
   SkillsH1,
-  SkillsP,
-  SkillsGreyP
+  SkillsP
 } from "./SkillsElements";
 
 const SkillsSection = () => {
