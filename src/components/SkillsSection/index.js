@@ -37,13 +37,12 @@ const SkillsSection = () => {
             <SkillsP>React</SkillsP>
             <SkillsP>React Native</SkillsP>
             <SkillsP>Ionic</SkillsP>
-            <SkillsGreyP>Flask</SkillsGreyP>
           </SkillsItem>
 
           <SkillsItem className="fade-skills fade-hidden">
             <SkillsH1>Databases</SkillsH1>
-            <SkillsP>MySQL</SkillsP>
             <SkillsP>PostgreSQL</SkillsP>
+            <SkillsP>MySQL</SkillsP>
           </SkillsItem>
 
           <SkillsItem className="fade-skills fade-hidden">
@@ -56,9 +55,6 @@ const SkillsSection = () => {
           <SkillsItem className="fade-skills fade-hidden">
             <SkillsH1>Design</SkillsH1>
             <SkillsP>Figma</SkillsP>
-            <SkillsP>Adobe XD</SkillsP>
-            <SkillsGreyP>Invision Studio</SkillsGreyP>
-            <SkillsGreyP>SketchUp</SkillsGreyP>
           </SkillsItem>
 
           <SkillsItem className="fade-skills fade-hidden">
